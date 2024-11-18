@@ -1,15 +1,15 @@
-# fly.toml app configuration file generated for phonebookbackend-falling-river-6777 on 2024-11-01T12:38:14+03:00
+# fly.toml app configuration file generated for phonebookbackend-summer-frog-1137 on 2024-11-18T11:56:24+03:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'phonebookbackend-falling-river-6777'
+app = 'phonebookbackend-summer-frog-1137'
 primary_region = 'jnb'
 
 [build]
 
 [env]
-  PORT = 3000
+  PORT = '3000'
 
 [http_service]
   internal_port = 3000
